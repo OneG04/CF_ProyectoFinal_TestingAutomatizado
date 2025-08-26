@@ -1,0 +1,1 @@
+print("En esta carpeta se realizará las pruebas automatizadas de la web")
