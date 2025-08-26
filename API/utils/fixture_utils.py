@@ -1,4 +1,4 @@
-from utils.settings import AUTH_LOGIN, BASE_URL
+from API.utils.settings import AUTH_LOGIN, BASE_URL
 import os
 import requests
 import pytest
