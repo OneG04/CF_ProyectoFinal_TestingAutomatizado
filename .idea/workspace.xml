@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProyectoFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoFinal.iml" afterDir="false" />
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="Primer update">
+      <change afterPath="$PROJECT_DIR$/ShopHub/features/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/.env" beforeDir="false" afterPath="$PROJECT_DIR$/API/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/airports/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/airports/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/airports/test_airports.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/airports/test_airports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/flights/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/flights/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/flights/test_flight.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/flights/test_flight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/users/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/users/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests/users/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/users/test_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/utils/api_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/utils/api_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/utils/fixture_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/utils/fixture_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/utils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/utils/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "OneG04"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OneG04&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git",
-    "accountId": "c2c97892-0371-486b-af1f-75047bca1cd5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git&quot;,
+    &quot;accountId&quot;: &quot;c2c97892-0371-486b-af1f-75047bca1cd5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -54,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_airports.test_create_airport_schema.executor": "Run",
-    "Python tests.Python tests for test_airports.test_get_all_airports.executor": "Run",
-    "Python tests.Python tests for test_airports.test_invalid_airport.executor": "Run",
-    "Python tests.Python tests for test_flight.test_create_flight_schema.executor": "Run",
-    "Python tests.Python tests for test_flight.test_get_all_flight.executor": "Run",
-    "Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor": "Run",
-    "Python tests.Python tests for test_users.test_create_user_schema.executor": "Run",
-    "Python tests.Python tests for test_users.test_get_all_user.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ASUS/Documents/ProyectoFinal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_airports.test_create_airport_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_airports.test_get_all_airports.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_airports.test_invalid_airport.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_flight.test_create_flight_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_flight.test_get_all_flight.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_users.test_create_user_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_users.test_get_all_user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/ProyectoFinal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_flight.test_get_all_flight_bug_found">
     <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
@@ -173,6 +166,27 @@
       <option name="presentableId" value="Default" />
       <updated>1754688363748</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer update">
+      <option name="closed" value="true" />
+      <created>1756182202463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756182202463</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primer update">
+      <option name="closed" value="true" />
+      <created>1756182415943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756182415943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer update" />
   </component>
 </project>
