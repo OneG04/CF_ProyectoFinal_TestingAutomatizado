@@ -1,0 +1,111 @@
+Index: ShopHub/features/environment.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from selenium import webdriver\r\n\r\n#crear driver de selenium antes de ejecutar todos los escenarios\r\n\r\ndef before_all(context):\r\n    context.driver = webdriver.Chrome()\r\n\r\n#Hacer driver quit, al terminar de ejecutar todos los escenarios\r\n\r\ndef after_all(context):\r\n    context.driver.quit()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ShopHub/features/environment.py b/ShopHub/features/environment.py
+--- a/ShopHub/features/environment.py	(revision c16d3c9af4d758f63ef8a3b7ab22bd64aa888bf1)
++++ b/ShopHub/features/environment.py	(date 1756267270011)
+@@ -1,4 +1,9 @@
+ from selenium import webdriver
++import sys
++import os
++
++# Añadir el directorio de pasos a la ruta de Python
++sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'steps')))
+ 
+ #crear driver de selenium antes de ejecutar todos los escenarios
+ 
+Index: ShopHub/features/steps/singup_steps.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from behave import  given, when, then\r\n\r\nfrom ShopHub.pages import singup_page\r\n\r\n@given('el usuario ingresa a la web')\r\ndef step_impl(context):\r\n    print('paso 1')\r\n\r\n@when ('el usuario hace clic en el botón Sign up')\r\ndef step_impl(context):\r\n    print('paso 1')\r\n\r\n@when ('el usuario ingresa credenciales válidas')\r\ndef step_impl(context):\r\n    print('paso 1')\r\n\r\n@then ('validar página Login')\r\ndef step_impl(context):\r\n    print('paso 1')
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ShopHub/features/steps/singup_steps.py b/ShopHub/features/steps/singup_steps.py
+--- a/ShopHub/features/steps/singup_steps.py	(revision c16d3c9af4d758f63ef8a3b7ab22bd64aa888bf1)
++++ b/ShopHub/features/steps/singup_steps.py	(date 1756267414903)
+@@ -1,6 +1,5 @@
+ from behave import  given, when, then
+ 
+-from ShopHub.pages import singup_page
+ 
+ @given('el usuario ingresa a la web')
+ def step_impl(context):
+@@ -15,5 +14,5 @@
+     print('paso 1')
+ 
+ @then ('validar página Login')
+-def step_impl(context):
++def Sstep_impl(context):
+     print('paso 1')
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c1e6b964-f0ca-4665-a3d6-e259a848908e\" name=\"Changes\" comment=\"Primer update\">\r\n      <change afterPath=\"$PROJECT_DIR$/ShopHub/features/environment.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShopHub/features/singup.feature\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShopHub/pages/singup_page.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;OneG04&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git&quot;,\r\n    &quot;accountId&quot;: &quot;c2c97892-0371-486b-af1f-75047bca1cd5&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"311Oy7WNidyZdzWFE2bI0OJooQW\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;Python tests.Python tests for test_airports.test_create_airport_schema.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_airports.test_get_all_airports.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_airports.test_invalid_airport.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_flight.test_create_flight_schema.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_flight.test_get_all_flight.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_users.test_create_user_schema.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_users.test_get_all_user.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/ProyectoFinal&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Python tests.Python tests for test_flight.test_get_all_flight_bug_found\">\r\n    <configuration name=\"Python tests for test_airports.test_create_airport_schema\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProyectoFinal\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API/tests/airports\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_airports.test_create_airport_schema&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_airports.test_get_all_airports\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProyectoFinal\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API/tests/airports\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_airports.test_get_all_airports&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_flight.test_create_flight_schema\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProyectoFinal\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API/tests/flights\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_flight.test_create_flight_schema&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_flight.test_get_all_flight\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProyectoFinal\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API/tests/flights\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_flight.test_get_all_flight&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_flight.test_get_all_flight_bug_found\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProyectoFinal\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API/tests/flights\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_flight.test_get_all_flight_bug_found&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python tests.Python tests for test_flight.test_get_all_flight_bug_found\" />\r\n        <item itemvalue=\"Python tests.Python tests for test_flight.test_get_all_flight\" />\r\n        <item itemvalue=\"Python tests.Python tests for test_airports.test_get_all_airports\" />\r\n        <item itemvalue=\"Python tests.Python tests for test_flight.test_create_flight_schema\" />\r\n        <item itemvalue=\"Python tests.Python tests for test_airports.test_create_airport_schema\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c1e6b964-f0ca-4665-a3d6-e259a848908e\" name=\"Changes\" comment=\"\" />\r\n      <created>1754688363748</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1754688363748</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Primer update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756182202463</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756182202463</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Primer update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756182415943</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756182415943</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Primer update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Primer update\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c16d3c9af4d758f63ef8a3b7ab22bd64aa888bf1)
++++ b/.idea/workspace.xml	(date 1756325176583)
+@@ -4,12 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="Primer update">
+-      <change afterPath="$PROJECT_DIR$/ShopHub/features/environment.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
++    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="ShopHub bases">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ShopHub/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/environment.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -65,6 +63,15 @@
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+ }</component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\ASUS\Documents\ProyectoFinal" />
++      <recent name="C:\Users\ASUS\Documents\ProyectoFinal\ShopHub" />
++      <recent name="C:\Users\ASUS\Documents\ProyectoFinal\ShopHub\pages" />
++      <recent name="C:\Users\ASUS\Documents\ProyectoFinal\ShopHub\features" />
++      <recent name="C:\Users\ASUS\Documents\ProyectoFinal\ShopHub\features\steps" />
++    </key>
++  </component>
+   <component name="RunManager" selected="Python tests.Python tests for test_flight.test_get_all_flight_bug_found">
+     <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="ProyectoFinal" />
+@@ -182,11 +189,20 @@
+       <option name="project" value="LOCAL" />
+       <updated>1756182415943</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="ShopHub bases">
++      <option name="closed" value="true" />
++      <created>1756243712651</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1756243712651</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Primer update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Primer update" />
++    <MESSAGE value="ShopHub bases" />
++    <option name="LAST_COMMIT_MESSAGE" value="ShopHub bases" />
+   </component>
+ </project>
+\ No newline at end of file
