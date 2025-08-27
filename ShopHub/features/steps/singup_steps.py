@@ -1,6 +1,6 @@
 from behave import  given, when, then
 
-from ShopHub.pages import singup_page
+from pages import singup_page
 
 @given('el usuario ingresa a la web')
 def step_impl(context):
