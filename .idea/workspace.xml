@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="behave ini">
+      <change afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/singup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/ProyectoFinal&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
