@@ -7,4 +7,9 @@ Feature: SingUp
   Scenario: SingUp exitoso
     Given el usuario ingresa a la web de Sing Up
     When el usuario ingresa credenciales válidas
-    Then validar página Login
+    Then validar página success
+
+  Scenario: Sign up con mail inválido
+    Given el usuario ingresa a la web de Sing Up
+    When el usuario no introduce el carácter "@" en el campo email
+    Then se muestra el mensaje de error "incluye un signo @"

@@ -7,7 +7,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def before_all(context):
     chrome_options = Options()
+    chrome_options.add_argument("--incognito")
     chrome_options.add_argument("--start-maximized")
+    chrome_options.add_argument("--disable-notifications")
     context.driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
         options=chrome_options
