@@ -18,6 +18,10 @@ def step_impl(context):
 def step_imp(context):
     context.singup_page.formulario("Juan", "Gomez", "juanmail", "123", "123aa456")
 
+@when ('el usuario deja vacío el campo "password"')
+def step_imp(context):
+    context.singup_page.formulario("Juan", "Gomez", "juan@mail.com", "123", "")
+
 @then ('validar página success')
 def step_impl(context):
     # Espera hasta que la URL contenga "success"
@@ -32,4 +36,11 @@ def step_impl(context):
 def step_impl(context):
     mensaje = context.singup_page.get_email_error_message()
     assert "@" in mensaje, f"El mensaje mostrado fue: {mensaje}"
+
+@then ('se muestra el mensaje de error "Completa este campo"')
+def step_impl(context):
+    mensaje = context.singup_page.get_password_error_message()
+    #print("MENSAJE REAL:", mensaje)
+    assert "campo" in mensaje, f"mensaje: {mensaje}"
+
 

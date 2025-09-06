@@ -31,3 +31,7 @@ class SingupPage:
     def get_email_error_message(self):
         email_element = self.driver.find_element(*self.email)
         return email_element.get_attribute("validationMessage")
+
+    def get_password_error_message(self):
+        password_element = self.driver.find_element(*self.password)
+        return password_element.get_attribute("validationMessage")

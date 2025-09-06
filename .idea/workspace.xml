@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPLP 2">
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPLP 3">
+      <change afterPath="$PROJECT_DIR$/ShopHub/features/home.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopHub/features/steps/home_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/singup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopHub/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756845051522</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CPLP 3">
+      <option name="closed" value="true" />
+      <created>1757125093407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757125093407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,7 +233,8 @@
     <MESSAGE value="behave ini" />
     <MESSAGE value="CPSH 1" />
     <MESSAGE value="CPLP 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPLP 2" />
+    <MESSAGE value="CPLP 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="CPLP 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

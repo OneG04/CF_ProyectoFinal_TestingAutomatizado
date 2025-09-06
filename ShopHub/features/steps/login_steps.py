@@ -13,6 +13,10 @@ def step_impl(context):
 def step_impl(context):
     context.login_page.Login("juan@mail.com", "contra123")
 
+@when('el usuario deja vacío el campo "contraseña"')
+def step_impl(context):
+    context.login_page.Login("juan@mail.com", "")
+
 @then('se redirige a la página de "Login exitoso"')
 def step_impl(context):
     WebDriverWait(context.driver, 10).until(
@@ -21,3 +25,8 @@ def step_impl(context):
 
     url_actual = context.driver.current_url
     assert "success" in url_actual, f"La URL {url_actual} no contiene 'success'"
+
+@then('se muestra el mensaje de error "Rellene este campo"')
+def step_impl(context):
+    mensaje = context.login_page.get_password_error_message()
+    assert "campo" in mensaje, f"mensaje: {mensaje}"
