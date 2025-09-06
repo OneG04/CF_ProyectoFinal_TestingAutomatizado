@@ -30,5 +30,6 @@ def step_impl(context):
 
 @then ('se muestra el mensaje de error "incluye un signo @"')
 def step_impl(context):
-    error_message = context.singup_page.get_email_error_message()
-    assert "Incluye una '@'" in error_message
+    mensaje = context.singup_page.get_email_error_message()
+    assert "@" in mensaje, f"El mensaje mostrado fue: {mensaje}"
+

@@ -29,11 +29,5 @@ class SingupPage:
         self.driver.find_element(*self.singupbutton).click()
 
     def get_email_error_message(self):
-        try:
-            # Espera a que el mensaje de error sea visible
-            error_element = WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located(self.email_error)
-            )
-            return error_element.text
-        except:
-            return None
+        email_element = self.driver.find_element(*self.email)
+        return email_element.get_attribute("validationMessage")

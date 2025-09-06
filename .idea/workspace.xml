@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPSH 1">
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPLP 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/singup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
     </list>
@@ -71,7 +69,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_flight.test_get_all_flight_bug_found">
+  <component name="RunManager" selected="Python tests.Python tests for test_airports.test_get_all_airports">
     <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_airports.test_get_all_airports" />
+        <item itemvalue="Python tests.Python tests for test_airports.test_create_airport_schema" />
+        <item itemvalue="Python tests.Python tests for test_flight.test_create_flight_schema" />
         <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight_bug_found" />
         <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight" />
-        <item itemvalue="Python tests.Python tests for test_airports.test_get_all_airports" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_create_flight_schema" />
-        <item itemvalue="Python tests.Python tests for test_airports.test_create_airport_schema" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756604483280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CPLP 2">
+      <option name="closed" value="true" />
+      <created>1756845051522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756845051522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer update" />
     <MESSAGE value="behave ini" />
     <MESSAGE value="CPSH 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPSH 1" />
+    <MESSAGE value="CPLP 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="CPLP 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
