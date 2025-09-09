@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPLP 3">
-      <change afterPath="$PROJECT_DIR$/ShopHub/features/home.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopHub/features/steps/home_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/tests/bookings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/tests/bookings/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/tests/bookings/test_bookings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProyectoFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoFinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/singup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/singup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/pages/singup_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/utils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/utils/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +34,12 @@
     &quot;assignee&quot;: &quot;OneG04&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git&quot;,
-    &quot;accountId&quot;: &quot;c2c97892-0371-486b-af1f-75047bca1cd5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git",
+    "accountId": "362e9865-4067-466f-9fe6-ff31b6645048"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -51,32 +48,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_airports.test_create_airport_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_airports.test_get_all_airports.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_airports.test_invalid_airport.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_flight.test_create_flight_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_flight.test_get_all_flight.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_users.test_create_user_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_users.test_get_all_user.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/ProyectoFinal&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_airports.test_create_airport_schema.executor": "Run",
+    "Python tests.Python tests for test_airports.test_get_all_airports.executor": "Run",
+    "Python tests.Python tests for test_airports.test_invalid_airport.executor": "Run",
+    "Python tests.Python tests for test_bookings.test_create_booking_schema.executor": "Debug",
+    "Python tests.Python tests for test_flight.test_create_flight_schema.executor": "Run",
+    "Python tests.Python tests for test_flight.test_get_all_flight.executor": "Run",
+    "Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor": "Run",
+    "Python tests.Python tests for test_users.test_create_user_schema.executor": "Run",
+    "Python tests.Python tests for test_users.test_get_all_user.executor": "Run",
+    "Python.conftest.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ASUS/Documents/ProyectoFinal",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_airports.test_get_all_airports">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_bookings.test_create_booking_schema">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/tests/bookings/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
@@ -107,6 +128,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_bookings.test_create_booking_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bookings.test_create_booking_schema&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_flight.test_create_flight_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
@@ -122,53 +158,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_flight.test_get_all_flight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/flights" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flight.test_get_all_flight&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_flight.test_get_all_flight_bug_found" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/flights" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flight.test_get_all_flight_bug_found&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_bookings.test_create_booking_schema" />
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests for test_airports.test_get_all_airports" />
         <item itemvalue="Python tests.Python tests for test_airports.test_create_airport_schema" />
         <item itemvalue="Python tests.Python tests for test_flight.test_create_flight_schema" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight_bug_found" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="" />
