@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="Cambios diana" />
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="cambios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -269,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757648198429</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cambios">
+      <option name="closed" value="true" />
+      <created>1757650309522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757650309522</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +298,8 @@
     <MESSAGE value="CPLP 2" />
     <MESSAGE value="CPLP 3" />
     <MESSAGE value="Cambios diana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios diana" />
+    <MESSAGE value="cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
