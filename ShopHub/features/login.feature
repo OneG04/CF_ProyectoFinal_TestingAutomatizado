@@ -13,3 +13,9 @@ Feature: Login
     Given el usuario ingresa a la web Login
     When el usuario deja vacío el campo "contraseña"
     Then se muestra el mensaje de error "Rellene este campo"
+
+  #BUG REPORTED
+  Scenario: Login con credenciales invalidas
+    Given el usuario ingresa a la web Login
+    When el usuario llena el campo contraseña con caracteres random
+    Then se muestra el mensaje fail Login
