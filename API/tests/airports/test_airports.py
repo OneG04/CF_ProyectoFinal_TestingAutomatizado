@@ -21,7 +21,7 @@ def test_create_airport_schema(airport):
 def test_get_all_airports(airport, auth_headers):
     r = requests.get(f"{BASE_URL}{AIRPORT}", headers=auth_headers)
     lista = r.text
-    assert r.status_code ==200
+    assert r.status_code ==201
     assert lista != ""
 
 def test_invalid_airport(invalid_airport, auth_headers):
