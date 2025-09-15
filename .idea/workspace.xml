@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="Automation web completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="Automation web completed 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757647614210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Automation web completed 2">
+      <option name="closed" value="true" />
+      <created>1757903504385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903504385</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,7 +249,8 @@
     <MESSAGE value="CPLP 3" />
     <MESSAGE value="CPLP 4" />
     <MESSAGE value="Automation web completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automation web completed" />
+    <MESSAGE value="Automation web completed 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automation web completed 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
