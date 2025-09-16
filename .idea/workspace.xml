@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="cambios diana" />
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="cambios diana">
+      <change afterPath="$PROJECT_DIR$/API/tests/bookings/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/tests/payments/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/tests/bookings/test_bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/bookings/test_bookings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/tests/payments/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/payments/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/tests/payments/test_payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/tests/payments/test_payments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/utils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/utils/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,87 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_airports.test_create_airport_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_airports.test_get_all_airports.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_airports.test_invalid_airport.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bookings.test_create_booking_schema.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_flight.test_create_flight_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_flight.test_get_all_flight.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_users.test_create_user_schema.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_users.test_get_all_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/ProyectoFinal&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_airports.test_create_airport_schema.executor": "Run",
+    "Python tests.Python tests for test_airports.test_get_all_airports.executor": "Run",
+    "Python tests.Python tests for test_airports.test_invalid_airport.executor": "Run",
+    "Python tests.Python tests for test_bookings.test_create_booking_missing_passport.executor": "Run",
+    "Python tests.Python tests for test_bookings.test_create_booking_schema.executor": "Run",
+    "Python tests.Python tests for test_bookings.test_create_booking_success.executor": "Run",
+    "Python tests.Python tests for test_bookings.test_get_all_bookings_bug_found.executor": "Run",
+    "Python tests.Python tests for test_flight.test_create_flight_schema.executor": "Run",
+    "Python tests.Python tests for test_flight.test_get_all_flight.executor": "Run",
+    "Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor": "Run",
+    "Python tests.Python tests for test_payments.test_create_and_get_payment.executor": "Run",
+    "Python tests.Python tests for test_payments.test_create_payment_schema.executor": "Run",
+    "Python tests.Python tests for test_payments.test_has_valid_status.executor": "Run",
+    "Python tests.Python tests for test_payments.test_no_empty_booking_id.executor": "Run",
+    "Python tests.Python tests for test_payments.test_wrong_status_fail_schema.executor": "Debug",
+    "Python tests.Python tests for test_users.test_create_user_schema.executor": "Run",
+    "Python tests.Python tests for test_users.test_get_all_user.executor": "Run",
+    "Python tests.Python tests in test_airports.py.executor": "Run",
+    "Python.conftest.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ASUS/Documents/ProyectoFinal",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_bookings.test_create_booking_schema">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/tests/bookings/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/airports" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_airports.test_create_airport_schema&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_airports.test_get_all_airports" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/airports" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_airports.test_get_all_airports&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_bookings.test_create_booking_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_payments.test_has_valid_status">
+    <configuration name="Python tests for test_bookings.test_create_booking_missing_passport" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,32 +101,77 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bookings.test_create_booking_schema&quot;" />
+      <option name="_new_target" value="&quot;test_bookings.test_create_booking_missing_passport&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_flight.test_create_flight_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bookings.test_create_booking_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/flights" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flight.test_create_flight_schema&quot;" />
+      <option name="_new_target" value="&quot;test_bookings.test_create_booking_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_payments.test_create_and_get_payment" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/payments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payments.test_create_and_get_payment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_payments.test_create_payment_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/payments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payments.test_create_payment_schema&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_payments.test_has_valid_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/payments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payments.test_has_valid_status&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_bookings.test_create_booking_schema" />
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.Python tests for test_airports.test_get_all_airports" />
-        <item itemvalue="Python tests.Python tests for test_airports.test_create_airport_schema" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_create_flight_schema" />
+        <item itemvalue="Python tests.Python tests for test_payments.test_has_valid_status" />
+        <item itemvalue="Python tests.Python tests for test_payments.test_create_and_get_payment" />
+        <item itemvalue="Python tests.Python tests for test_bookings.test_create_booking_success" />
+        <item itemvalue="Python tests.Python tests for test_bookings.test_create_booking_missing_passport" />
+        <item itemvalue="Python tests.Python tests for test_payments.test_create_payment_schema" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +334,26 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ShopHub/features/steps/singup_steps.py</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/tests/bookings/test_bookings.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/tests/bookings/test_bookings.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/tests/bookings/schema.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/utils/settings.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
