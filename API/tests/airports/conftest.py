@@ -45,3 +45,11 @@ def invalid_airport(auth_headers):
         #"city": "La Paz",
         "country": fake.country_code()
     }
+
+@pytest.fixture
+def create_airport():
+    return {
+        "iata_code": "".join(random.choices(string.ascii_uppercase, k=3)),
+        "city": "La Paz",
+        "country": fake.country_code()
+    }

@@ -24,3 +24,7 @@ def test_get_all_flight_bug_found(flight, auth_headers):
     lista = r.text
     assert r.status_code == 500
     assert lista != ""
+
+def test_create_flight(create_flight, auth_headers):
+    r = requests.post(f"{BASE_URL}{FLIGHT}", headers=auth_headers, json=create_flight)
+    assert r.status_code == 404

@@ -27,3 +27,7 @@ def test_get_all_airports(airport, auth_headers):
 def test_invalid_airport(invalid_airport, auth_headers):
     r = requests.post(f"{BASE_URL}{AIRPORT}", headers=auth_headers)
     assert r.status_code == 422
+
+def test_create_airport(create_airport, auth_headers):
+    r = requests.post(f"{BASE_URL}{AIRPORT}", headers=auth_headers, json=create_airport)
+    assert r.status_code == 201

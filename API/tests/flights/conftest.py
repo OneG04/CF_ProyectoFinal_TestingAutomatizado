@@ -41,3 +41,15 @@ def flight(auth_headers):
     yield flight_response
     #requests.delete(f"{BASE_URL}{FLIGHT}/{flight_response["id"]}", json = flight_data, headers = auth_headers, timeout = 5)
     #requests.delete(BASE_URL + FLIGHT + f'{flight_response["id"]}', headers=auth_headers, timeout=5)
+
+@pytest.fixture
+def create_flight(auth_headers):
+    return {
+        "origin": "".join(random.choices(string.ascii_uppercase, k=3)),
+        "destination": "".join(random.choices(string.ascii_uppercase, k=3)),
+        "departure_time": "2025-08-19T18:01:27.712Z",
+        "arrival_time": "2025-08-19T18:01:27.712Z",
+        "base_price": random.randint(500,2000),
+        "aircraft_id": "string"
+        #"aircraft_id": "".join(random.choices(string.digits, k=4))
+    }
