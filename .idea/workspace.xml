@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="CPLP 4">
-      <change afterPath="$PROJECT_DIR$/ShopHub/features/cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopHub/features/steps/cart_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopHub/pages/cart_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopHub/pages/categoryMC_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopHub/pages/checkout_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopHub/features/steps/login_steps.py" afterDir="false" />
-    </list>
+    <list default="true" id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="cambios diana" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,7 +34,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/OneG04/CF_ProyectoFinal_TestingAutomatizado.git&quot;,
-    &quot;accountId&quot;: &quot;c2c97892-0371-486b-af1f-75047bca1cd5&quot;
+    &quot;accountId&quot;: &quot;362e9865-4067-466f-9fe6-ff31b6645048&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -55,11 +51,13 @@
     &quot;Python tests.Python tests for test_airports.test_create_airport_schema.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_airports.test_get_all_airports.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_airports.test_invalid_airport.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_bookings.test_create_booking_schema.executor&quot;: &quot;Debug&quot;,
     &quot;Python tests.Python tests for test_flight.test_create_flight_schema.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_flight.test_get_all_flight.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_flight.test_get_all_flight_bug_found.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_users.test_create_user_schema.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_users.test_get_all_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -74,7 +72,29 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_airports.test_get_all_airports">
+  <component name="RunManager" selected="Python tests.Python tests for test_bookings.test_create_booking_schema">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/tests/bookings/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_airports.test_create_airport_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
@@ -105,6 +125,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_bookings.test_create_booking_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/bookings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bookings.test_create_booking_schema&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_flight.test_create_flight_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal" />
       <option name="ENV_FILES" value="" />
@@ -120,53 +155,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_flight.test_get_all_flight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/flights" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flight.test_get_all_flight&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_flight.test_get_all_flight_bug_found" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API/tests/flights" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flight.test_get_all_flight_bug_found&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_bookings.test_create_booking_schema" />
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests for test_airports.test_get_all_airports" />
         <item itemvalue="Python tests.Python tests for test_airports.test_create_airport_schema" />
         <item itemvalue="Python tests.Python tests for test_flight.test_create_flight_schema" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight_bug_found" />
-        <item itemvalue="Python tests.Python tests for test_flight.test_get_all_flight" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c1e6b964-f0ca-4665-a3d6-e259a848908e" name="Changes" comment="" />
@@ -223,16 +229,83 @@
       <option name="project" value="LOCAL" />
       <updated>1757125093407</updated>
     </task>
-    <task id="LOCAL-00007" summary="CPLP 4">
+    <task id="LOCAL-00007" summary="CPLP 3">
       <option name="closed" value="true" />
-      <created>1757132947264</created>
+      <created>1757456139050</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1757132947264</updated>
+      <updated>1757456139050</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CPLP 3">
+      <option name="closed" value="true" />
+      <created>1757456188770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757456188770</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CPLP 3">
+      <option name="closed" value="true" />
+      <created>1757456307949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757456307949</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CPLP 3">
+      <option name="closed" value="true" />
+      <created>1757647838035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757647838035</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cambios diana">
+      <option name="closed" value="true" />
+      <created>1757648198429</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757648198429</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cambios">
+      <option name="closed" value="true" />
+      <created>1757650309522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757650309522</updated>
+    </task>
+    <task id="LOCAL-00013" summary="cambios">
+      <option name="closed" value="true" />
+      <created>1757650744887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757650744887</updated>
+    </task>
+    <task id="LOCAL-00014" summary="cambios diana">
+      <option name="closed" value="true" />
+      <created>1757732127061</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757732127061</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer update" />
@@ -240,8 +313,10 @@
     <MESSAGE value="CPSH 1" />
     <MESSAGE value="CPLP 2" />
     <MESSAGE value="CPLP 3" />
-    <MESSAGE value="CPLP 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPLP 4" />
+    <MESSAGE value="Cambios diana" />
+    <MESSAGE value="cambios" />
+    <MESSAGE value="cambios diana" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios diana" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
